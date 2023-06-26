@@ -1,5 +1,5 @@
 {% set name = "pyscal-rdf" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyscal_rdf-{{ version }}.tar.gz
-  sha256: 881d092b6bba54b010ee76d522bab81abae3b6246fb966e40603a9c1141c6fcd
+  sha256: c5f05d3f1834805269575542796e47cf92a4787cfb35917d9af9ed5d26660ab4
 
 build:
   noarch: python
