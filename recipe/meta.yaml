@@ -1,5 +1,5 @@
 {% set name = "pyscal-rdf" %}
-{% set version = "0.0.13" %}
+{% set version = "0.0.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyscal_rdf-{{ version }}.tar.gz
-  sha256: 96fc1f04ae7823be8c6c2989bd0aa9f290dd5d28c6202f8e90655f8adddbdef7
+  sha256: dbd959de8a035b2d4e376b73f77445679fba1044fa7fddb5dde9c1d2a768da00
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python >=3.8 
+    - python >=3.8
     - pip
   run:
     - python >=3.8
@@ -29,6 +29,7 @@ requirements:
     - ipycytoscape
     - spglib
     - pyscal3 =3.1.0
+    - pandas
 
 test:
   imports:
