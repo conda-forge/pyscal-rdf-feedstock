@@ -29,6 +29,7 @@ requirements:
     - ipycytoscape
     - spglib
     - pyscal3 =3.1.0
+    - pandas
 
 test:
   imports:
