@@ -26,7 +26,6 @@ requirements:
     - pyyaml
     - python-graphviz
     - networkx
-    - ipycytoscape
     - spglib
     - pyscal3 >=3.1.7
     - pandas
