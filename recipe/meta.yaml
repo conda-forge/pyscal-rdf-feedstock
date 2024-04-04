@@ -1,5 +1,5 @@
 {% set name = "pyscal-rdf" %}
-{% set version = "0.1.7" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyscal_rdf-{{ version }}.tar.gz
-  sha256: 77c0a5e305510e03b33941852c02e3aed0ea29d50f7695f9206bf4fb5e9c86f2
+  sha256: c57a2edf2f994069cca78c9f76dc9f804979513c1b9159063e44a33f67f1cd0b
 
 build:
   noarch: python
@@ -25,8 +25,8 @@ requirements:
     - rdflib
     - pyyaml
     - python-graphviz
-    - networkx
     - ipycytoscape
+    - networkx
     - spglib
     - pyscal3 >=3.1.7
     - pandas
