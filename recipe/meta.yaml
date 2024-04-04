@@ -25,6 +25,7 @@ requirements:
     - rdflib
     - pyyaml
     - python-graphviz
+    - ipycytoscape
     - networkx
     - spglib
     - pyscal3 >=3.1.7
